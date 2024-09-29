@@ -1,0 +1,101 @@
+/* การจัดรูปแบบทั่วไป */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fcf7dc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #5e4837;
+}
+
+header {
+    background-color: #fcf7dc;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #5e4837; 
+}
+
+h2 {
+    font-size: 24px;
+    color: #e981a4;
+}
+
+/* จัดการส่วนวิดีโอ */
+.video-section {
+    margin: 20px auto;
+}
+
+.video-container video {
+    width: 80%;
+    max-width: 600px;
+}
+
+/* จัดการส่วนประวัติย่อ */
+.bio-section {
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.bio-section p {
+    font-size: 16px;
+    color: #e981a4;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 2px solid #5e4837;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ลิงก์รูปหัวใจ */
+.links-section {
+    margin: 30px auto;
+}
+
+.heart-link {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #f9e6f0;
+    color: #e981a4;
+    font-size: 20px;
+    border: 2px solid #e981a4;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    line-height: 110px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.heart-link:hover {
+    background-color: #ffe5f0;
+    color: #fcf7dc;
+} 
+
+.ending-image {
+    max-width: 100%;  /* รูปภาพจะมีความกว้างตามขนาดหน้าจอ */
+    height: auto;    /* คงอัตราส่วนของรูปภาพ */
+    border-radius: 8px;  /* มุมของรูปภาพโค้งมน */
+    margin-bottom: 10px; /* เพิ่มระยะห่างจากข้อความ */
+}
+
+.ending-text {
+    font-size: 20px;
+    color: #8B008B;
+    font-weight: bold;
+    text-align: center;
+}
